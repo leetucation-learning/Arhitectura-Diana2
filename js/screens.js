@@ -287,6 +287,18 @@
   };
 
   /* ---------- final ---------- */
+  /* ---------- fișele de tipar pentru clasă (descărcare) ---------- */
+  A.kitDl = function (noHead) {
+    var D = C.adults;
+    return '<section class="kitdl"' + (noHead ? ' aria-label="Fișele pentru clasă"' : ' aria-labelledby="kitdl-h"') + '>' + (noHead ? '' : '<h2 id="kitdl-h">' + I.print + 'Fișele pentru clasă</h2>' +
+      '<p class="kd-lead">Kitul atelierului, gata de tipărit: planșa perechii, colile de forme, cartonașele și afișele clienților, fișa lecției.</p>') +
+      '<a class="btn pri kd-all" href="media/print/' + esc(D.kitzip[0]) + '" download>' + I.dl + '<span>Descarcă tot kitul <small>(ZIP, ' + esc(D.kitzip[1]) + ')</small></span></a>' +
+      '<ul class="kd-list">' + D.kit.map(function (k) {
+        return '<li><a href="media/print/' + esc(k[0]) + '" download><img src="media/print/' + esc(k[4]) + '" alt="" loading="lazy"><span><b>' + esc(k[1]) + '</b><small>' + esc(k[2]) + '</small><em>' + I.pdf + 'PDF · ' + esc(k[3]) + '</em></span><span class="kd-ic" aria-hidden="true">' + I.dl + '</span></a></li>';
+      }).join('') + '</ul>' +
+      '<p class="kd-note">Tipărește la 100%, fără „potrivire în pagină”: piesele și animalele au aceeași scară. <a href="media/print/CITESTE-MA.txt" download>Instrucțiuni de tipar</a> (cantități pentru 4 clase, hârtie, tăiere).</p></section>';
+  };
+
   SCR.final = {
     html: function (s) {
       var st = A.st(), n = A.starsCount(), mine = A.houseThumb ? A.houseThumb() : null, cl = st.client && C.clients[st.client];
@@ -300,6 +312,7 @@
         '<div class="acts" style="margin-top:14px"><button class="btn" type="button" data-a="pr">' + I.print + 'Tipărește diploma</button></div></div>' +
         '<div class="credits" data-c="1"><p style="margin:0 0 8px;font:900 var(--fs-b) var(--disp);color:var(--ink)">Ți-a plăcut atelierul?</p><div class="faces" role="group" aria-label="Ți-a plăcut atelierul?">' +
         [['3', '😀', 'Mi-a plăcut mult'], ['2', '🙂', 'Mi-a plăcut'], ['1', '😐', 'Așa și așa']].map(function (f) { return '<button type="button" data-like="' + f[0] + '" aria-pressed="' + (String(st.like) === f[0]) + '" aria-label="' + f[2] + '">' + f[1] + '</button>'; }).join('') + '</div></div>' +
+        A.kitDl() +
         '</div><div class="col">' +
         '<div class="credits" data-c="2"><b>Atelierul „Casa pe măsură”</b> (conținut, kitul de tipar și ilustrațiile clienților): <b>' + esc(C.meta.contentAuthor) + '</b>.<br><b>E-learning:</b> ' + esc(C.meta.author) + ' · ' + esc(C.meta.org) + ', în proiectul <i>' + esc(C.meta.project) + '</i>, ' + esc(C.meta.activity) + '.<br>' +
         'Voci: ElevenLabs v4 prin Magnific (naratoarea și cei trei clienți). Ilustrații de copertă și fotografii cu animale și case: generate cu IA în Magnific, în stilul kitului; fotografia cu arhitecții și cele două cu girafa și liliacul: Freepik. Fotografiile din clasă: atelierele din noiembrie 2026, fără fețe de copii. Fonturi: Nunito, Andika (SIL OFL).' +
@@ -346,9 +359,7 @@
             '<p class="note">Perechile rapide: al doilea nivel sub pământ, turnul de pază al suricatei, o grădină pe acoperiș, mobilierul clientului. Perechile care taie mai încet: piesele mari; întâi doar baza, ușa și acoperișul.</p>';
         },
         k: function () {
-          return '<h2>Kitul de tipar</h2><p>Fișierele atelierului, gata de tipar (la 100%, fără „potrivire în pagină”: animalele de pe cartonașe au aceeași scară cu piesele).</p><div class="kit">' +
-            D.kit.map(function (k) { return '<a href="media/print/' + esc(k[0]) + '" target="_blank" rel="noopener">' + I.pdf + '<span><b>' + esc(k[1]) + '</b><small>' + esc(k[2]) + '</small></span></a>'; }).join('') +
-            '<a href="media/print/CITESTE-MA.txt" target="_blank" rel="noopener">' + I.book + '<span><b>CITESTE-MA (instrucțiuni de tipar)</b><small>cantități pentru 4 clase, hârtie, tăiere</small></span></a></div>' +
+          return '<h2>Kitul de tipar</h2><p>Fișierele atelierului, gata de tipar (la 100%, fără „potrivire în pagină”: animalele de pe cartonașe au aceeași scară cu piesele).</p>' + A.kitDl(true) +
             '<p style="margin-top:12px">Pe masă, în plus: hârtie colorată A4 (2 coli pe pereche, pentru pereți și camere), foarfece cu vârf rotunjit, lipici stick, carioci.</p>';
         },
         u: function () {

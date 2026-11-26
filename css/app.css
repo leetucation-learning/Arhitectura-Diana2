@@ -792,3 +792,35 @@ h1[tabindex="-1"]:focus,h1[tabindex="-1"]:focus-visible{outline:none}
 .hs{min-width:28px;min-height:28px}
 @media (max-aspect-ratio:1/1){ .ex-doors .doorscene{height:min(calc(var(--av,600px) - 34px),78vw,560px)} .ex-ceiling .room,.ex-winheight .room{height:min(var(--av,600px),110vw,640px)} .ex-tunnels .tun .scene{height:min(calc(var(--av,600px) - 6px),95vw,600px)} }
 @media (max-width:520px){.doorscene .dr .lab{font-size:11px;padding:0 5px;bottom:-28px}}
+/* start pe telefon vertical: ecranul se derulează, butoanele rămân la îndemână */
+@media (max-aspect-ratio:1/1){
+  .start{overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}
+  .start .hero{height:clamp(170px,30vh,340px)}
+  .start .panel{padding-bottom:12px;gap:12px}
+  .start .fund{position:static;margin-top:auto;font-size:12px;padding:10px clamp(18px,4vw,64px) 14px}
+  .start .logo-t{font-size:clamp(38px,11vw,72px)}
+  .start .acts .btn{flex:1 1 auto;justify-content:center}
+}
+@media (max-height:520px) and (min-aspect-ratio:1/1){ .start{overflow-y:auto} .start .panel{height:auto;min-height:100%} }
+/* ---------- fișele pentru clasă (descărcare) ---------- */
+.kitdl{background:#fff;border:var(--bw) solid var(--ink);border-radius:22px;padding:clamp(14px,2vw,22px);box-shadow:var(--sh);display:flex;flex-direction:column;gap:12px}
+.kitdl h2{display:flex;align-items:center;gap:10px;margin:0;font:900 clamp(20px,2vw,26px)/1.2 var(--disp)}
+.kitdl h2 svg{width:28px;height:28px}
+.kd-lead,.kd-note{margin:0;font:400 var(--fs-s)/1.45 var(--read);color:var(--ink2)}
+.kd-note a{color:var(--ink);font-weight:700}
+.kd-all{align-self:flex-start}
+.kd-all small{font:700 13px var(--read)}
+.kd-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:10px}
+.kd-list a{display:flex;align-items:center;gap:12px;min-height:84px;padding:8px 12px 8px 8px;border:2.5px solid var(--ink);border-radius:16px;background:var(--paper);color:var(--ink);text-decoration:none;transition:transform .15s,box-shadow .15s}
+.kd-list a:hover,.kd-list a:focus-visible{transform:translateY(-2px);box-shadow:0 4px 0 var(--ink)}
+.kd-list a:focus-visible{outline:4px solid var(--blue);outline-offset:2px}
+.kd-list img{width:52px;height:auto;flex:0 0 auto;border:1.5px solid var(--line);border-radius:4px;background:#fff}
+.kd-list span{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
+.kd-list b{font:900 16px/1.2 var(--disp)}
+.kd-list small{font:400 13px/1.3 var(--read);color:var(--ink2)}
+.kd-list em{display:flex;align-items:center;gap:4px;font:800 12px var(--disp);font-style:normal;color:var(--ink2)}
+.kd-list em svg{width:16px;height:16px}
+.kd-list .kd-ic{flex:0 0 auto;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--yellow);border:2.5px solid var(--ink)}
+.kd-list .kd-ic svg{width:20px;height:20px}
+.final .kitdl{margin-top:4px}
+.pane .kitdl{border:0;box-shadow:none;padding:0;background:none}
