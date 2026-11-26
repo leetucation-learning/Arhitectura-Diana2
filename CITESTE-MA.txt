@@ -1,0 +1,49 @@
+CASA PE MĂSURĂ · ARHITECTURA CELOR MICI
+E-learning pentru clasele I–II · Urban Instances V3 · Cetatea citită · Activitatea 5
+Ediția a III-a · Școli creative 2026–2027
+
+Atelier creat de Diana-Andra Lucaciu (conținut, kitul de tipar, ilustrațiile clienților).
+E-learning: Gelu-Emanuel Cebzan · LEETUCATION SRL.
+Finanțat de Municipiul Timișoara prin Centrul de Proiecte și Administrația pentru Sănătate și Educație.
+
+CE ESTE
+Copiii devin arhitecți. Ascultă trei clienți (girafa, liliacul, suricata), învață să citească
+semnele de pe cartonașe, măsoară uși și tavane, așază ferestre și obloane, descoperă ce e sus,
+jos și dedesubt, apoi își aleg un client și îi construiesc casa pe o planșă cu piesele reale ale
+atelierului (aceleași mărimi ca în colile de forme). Clientul verifică apoi casa, iar copilul
+explică o alegere: „Am pus... pentru că...”.
+
+6 lecții scurte (stele), 18 jocuri, constructorul de case, diploma de arhitect.
+Durată: aproximativ 45–60 de minute, în mai multe reprize. Totul e cu voce (aprox. 16 minute de
+narațiune), cu text puțin pe ecran, butoane mari, atingere sau tragere cu degetul.
+Merge pe telefon (vertical sau orizontal), tabletă și calculator. Se poate folosi și numai
+de la tastatură.
+
+CUM SE FOLOSEȘTE
+1. Într-un LMS (Moodle, Oracle Learning, SCORM Cloud etc.):
+   încărcați fișierul UI3_CasaPeMasura_RO_v1.0_SCORM2004.zip ca pachet SCORM 2004 (ediția a 3-a).
+   Se raportează: completion_status = completed după toate cele 6 stele (6 lecții), progresul,
+   locul de reluare, un scor informativ (răspunsurile corecte din prima încercare la jocuri)
+   și interacțiunile (cmi.interactions). Nu se raportează nume de copii (numele de pe diplomă
+   rămâne doar în curs).
+2. Pe un site (GitHub Pages sau orice găzduire statică):
+   dezarhivați varianta „web” și încărcați tot conținutul folderului. Pagina de pornire este
+   index.html. Fără LMS, progresul se păstrează în browserul copilului (localStorage).
+3. Local, pe un calculator: se deschide prin orice server web local; deschis direct din
+   folder (dublu-clic pe index.html) merge, dar salvarea imaginii casei poate fi blocată
+   de browser.
+
+SETĂRI (js/config.js)
+- skipIntro: true sare peste logo-ul animat de la început.
+- bibSupl: lecturi adăugate de profesor; apar primele în „Pentru profesori și părinți” > Bibliografie.
+
+PENTRU ADULȚI
+Din meniul cursului (butonul cu trei puncte) > „Pentru profesori și părinți”: scopul și
+obiectivele atelierului, desfășurarea în 50 de minute, kitul de tipar (PDF), cum se folosește
+e-learningul în clasă și bibliografia.
+
+DESPRE CONȚINUTUL GENERAT
+Voci: ElevenLabs v4, prin Magnific. Ilustrațiile de copertă și o parte din fotografiile cu
+animale și case sunt generate cu IA în Magnific, în stilul kitului; câteva fotografii sunt de pe
+Freepik. Fotografiile din clasă sunt de la atelierele din noiembrie 2026, fără fețe de copii.
+Fonturi: Nunito și Andika (SIL Open Font License).
