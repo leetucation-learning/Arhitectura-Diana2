@@ -1,0 +1,37 @@
+CASA PE MĂSURĂ · Draft 5 (lucru în perechi, culori pentru copii) · fișierele de tipar
+Urban Instances V3 – Cetatea citită · Activitatea 5: Arhitectura celor mici
+Școala Gimnazială nr. 30, Timișoara · 9, 10, 11 și 13 noiembrie 2026 · LEETUCATION S.R.L.
+
+CE SE TIPĂREȘTE (4 clase de aprox. 30 de copii = 60 de perechi, plus rezervă)
+1  Planșa perechii ............ A4 color, carton 250 g ........ 64 buc.  (1 pe pereche)
+2  Coala de forme A ........... A4 color, hârtie 120 g mată ... 62 buc.  (1 pe pereche: un elev ia coala A,
+3  Coala de forme B ........... A4 color, hârtie 120 g mată ... 62 buc.   colegul lui ia coala B)
+4  Cartonașele clienților ..... A4 color, carton 200 g ........ 26 buc.  (3 cartonașe pe coală; 6 coli pe clasă)
+5  Afișele clienților ......... A3 color, carton 200 g ........ câte 1 buc. din fiecare pagină (3 pagini)
+6  Fișa lecției (ghid) ........ A4, în regim propriu .......... paginile 1–3: 5 ex. (formatoarea + 4 învățătoare);
+                                                                 pagina 4 (fișa de observație): 4 ex.
+La tipografie: 214 coli A4 + 3 coli A3.
+
+COLILE DE FORME A ȘI B (ce s-a schimbat în Draft 5)
+- O coală pentru fiecare copil din pereche; colile sunt diferite, iar împreună au toate formele.
+- Pe fiecare: forme mari și mici, de toate felurile, fără contur, în culori vii (cireșie, mandarină, galben-soare,
+  turcoaz, albastru, violet, roz, verde, caramel).
+- Detaliile sunt tipărite înăuntrul formelor: ferestrele au ramă, ochiuri de geam și pervaz; ușile au clanță,
+  cele mari și un geam; obloanele au lamele. Copiii taie doar pe marginea de afară a culorii.
+- Mărimile s-au păstrat: 9 uși în 7 mărimi; animalele de pe cartonașe sunt neschimbate.
+
+LA TIPAR
+- La 100%, fără „potrivire în pagină”: animalele de pe cartonașe au aceeași scară cu piesele
+  (girafa 6,6 cm, suricata 2,1 cm, liliacul 1,9 cm; ușa cea mare 7,2 cm, ușile mici 2,5 cm).
+- PDF-uri RGB, fonturi incluse. Fără margine de tăiere: nimic nu ajunge mai aproape de 10 mm de marginea foii.
+- Colile cu cartonașe se taie în trei înainte de oră: două tăieturi drepte, pe liniile punctate (merge cu ghilotina, în teanc).
+- Culorile vii ies cel mai bine pe hârtie albă, mată; o probă de culoare pe o coală A și una B înainte de tiraj.
+
+NU SE TIPĂRESC, DAR TREBUIE PE MASĂ
+- Hârtie colorată A4: 2 coli pe pereche, în culori diferite (pereții și camerele casei) = 120 de coli
+  pentru cele 4 clase; un top de 250 de coli, culori asortate (de preferat pastel), ajunge cu rezervă.
+- Foarfece cu vârf rotunjit, lipici stick, carioci (kitul AS5).
+
+IDENTITATEA VIZUALĂ (Anexa 14)
+Logo-ul oficial CdP + ASEMT, varianta neagră, stânga sus, 16,1 mm înălțime, cu zona de excludere liberă;
+mențiunea finanțatorului în subsolul fiecărei pagini.
